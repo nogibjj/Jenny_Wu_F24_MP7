@@ -1,3 +1,5 @@
+[![Python Application Test with Github Actions](https://github.com/nogibjj/Jenny_Wu_F24_MP7/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Jenny_Wu_F24_MP7/actions/workflows/cicd.yml)
+
 # Jenny_Wu_F24_MP7
 ## Package a Python Script into a Command-Line Tool 
 
