@@ -11,7 +11,8 @@ from preprocess_SQL_files.query_data import (
     query_2,
 )
 
-extract("https://data.cityofnewyork.us/resource/833y-fsy8.csv", "data/nypd_shooting.csv")
+extract("https://data.cityofnewyork.us/resource/833y-fsy8.csv", 
+        "data/nypd_shooting.csv")
 transform(dataset="data/nypd_shooting.csv",
     db_name="nypd_shooting.db",
     table_name="nypd_shooting"
