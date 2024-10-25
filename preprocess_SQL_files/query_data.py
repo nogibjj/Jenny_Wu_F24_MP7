@@ -79,7 +79,7 @@ def query_1(database, table):
 
 
 def query_2(database, table):
-    """Queries the db for all incidences on 4/19/2008"""
+    """Queries the db for all incidences on 07/05/2023"""
     conn = sqlite3.connect(database)
     cursor = conn.cursor()
 
@@ -87,10 +87,10 @@ def query_2(database, table):
     query = f"""
         SELECT Incident_Key, Boro, Perp_Sex, Perp_Race, Victim_Sex, Victim_Race
         FROM {table} 
-        WHERE Occur_Date= '04/19/2008' 
+        WHERE Occur_Date= '2023-12-29T00:00:00.000' 
     """
     cursor.execute(query)
-    print("Incidents on 04/19/2008")
+    print("Incidents on 2023-12-29")
     query_2_result = cursor.fetchall()
     print(query_2_result)
     cursor.close()

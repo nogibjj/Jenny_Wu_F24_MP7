@@ -8,7 +8,7 @@ NYPD Shooting dataset
 
 
 def extract(
-    url="https://data.cityofnewyork.us/api/views/833y-fsy8/rows.csv?accessType=DOWNLOAD",
+    url="https://data.cityofnewyork.us/resource/833y-fsy8.csv",
     file_path="data/nypd_shooting.csv",
 ):
     """ "Extract a url to a file path"""
