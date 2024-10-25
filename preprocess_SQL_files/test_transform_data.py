@@ -4,7 +4,9 @@ from transform_data import transform
 
 
 def test_transform():
-    transform_result = transform()
+    transform_result = transform(dataset="data/nypd_shooting.csv",
+    db_name="nypd_shooting.db",
+    table_name="nypd_shooting")
     assert transform_result is not None
 
 

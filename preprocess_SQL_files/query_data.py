@@ -79,7 +79,7 @@ def query_1(database, table):
 
 
 def query_2(database, table):
-    """Queries the db for all incidences on 07/05/2023"""
+    """Queries the db for all incidences on 12/29/2023"""
     conn = sqlite3.connect(database)
     cursor = conn.cursor()
 
